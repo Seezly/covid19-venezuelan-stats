@@ -5,24 +5,29 @@ import Header from './components/Header';
 
 const App = () => {
 
-    const [data, setData] = useState(null);
+    const [stats, setStats] = useState(null);
+    const [timeline, setTimeline] = useState(null);
     
     useEffect(() => {
 
-        const fetchData = async () => {
-            const fetch = await fetch('');
-            const data = await fetch.json();
+        let stats, timeline;
 
-            return data
-        };
+        Promise.all([fetch('https://covid19.patria.org.ve/api/v1/summary'), fetch('https://covid19.patria.org.ve/api/v1/timeline')])
+        .then(async responses => {
+            stats = await responses[0].json();
+            timeline = await responses[1].json();
+        });
 
-        setData(fetchData());
+        setStats(stats);
+        setTimeline(timeline);
     }, []);
 
     return (
         <>
             <Header />
-            <DisplayStats stats={data}/>
+            <DisplayStats
+                stats={stats}
+                timeline={timeline}/>
             <Footer />
         </>
     )
