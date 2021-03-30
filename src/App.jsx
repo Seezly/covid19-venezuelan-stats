@@ -5,8 +5,9 @@ import Header from './components/Header';
 
 const App = () => {
 
-    const [stats, setStats] = useState(null);
-    const [timeline, setTimeline] = useState(null);
+    const [stats, setStats] = useState();
+    const [timeline, setTimeline] = useState();
+    const [render, setRender] = useState(false);
     
     useEffect(() => {
 
@@ -16,18 +17,23 @@ const App = () => {
         .then(async responses => {
             stats = await responses[0].json();
             timeline = await responses[1].json();
+
+            setStats(stats);
+            setTimeline(timeline);
+            setRender(true);
         });
 
-        setStats(stats);
-        setTimeline(timeline);
     }, []);
 
     return (
         <>
             <Header />
-            <DisplayStats
+            {
+                render &&
+                <DisplayStats
                 stats={stats}
                 timeline={timeline}/>
+            }
             <Footer />
         </>
     )
