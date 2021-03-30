@@ -18,38 +18,38 @@ const DisplayStats = (props) => {
         return average
     };
 
-    const confirmed = stats['Confirmed']['Count'];
-    const recovered = stats['Recovered']['Count'];
-    const deaths = stats['Deaths']['Count'];
-    const populationPercentage = stats['Confirmed'];
-    const infectedPerDayAverage = getAverage(timeline, "Confirmed", "New");
-    const deathsPerDayAverage = getAverage(timeline, "Deaths", "New");
+    const confirmed = stats['Confirmed']['Count'].toLocaleString('de-DE');
+    const recovered = stats['Recovered']['Count'].toLocaleString('de-DE');
+    const deaths = stats['Deaths']['Count'].toLocaleString('de-DE');
+    const populationPercentage = stats['Confirmed'].toLocaleString('de-DE');
+    const infectedPerDayAverage = getAverage(timeline, "Confirmed", "New").toLocaleString('de-DE');
+    const deathsPerDayAverage = getAverage(timeline, "Deaths", "New").toLocaleString('de-DE');
 
     return (
         <section
             className="container display">
             <Stats 
-                class_name="container__display-stats"
+                class-name="container__display-stats"
                 data={confirmed}
                 title="Casos confirmados"/>
             <Stats 
-                class_name="container__display-stats --box"
+                class-name="container__display-stats --box"
                 data={deaths}
                 title="Muertes"/>
             <Stats 
-                class_name="container__display-stats --box"
+                class-name="container__display-stats --box"
                 data={recovered}
                 title="Recuperados"/>
             <Stats 
-                class_name="container__display-stats --box"
+                class-name="container__display-stats --box"
                 data={populationPercentage}
                 title="% de la población afectada"/>
             <Stats 
-                class_name="container__display-stats"
+                class-name="container__display-stats"
                 data={infectedPerDayAverage}
                 title="Promedio de infectados por día"/>
             <Stats 
-                class_name="container__display-stats"
+                class-name="container__display-stats"
                 data={deathsPerDayAverage}
                 title="Promedio de muertes por día"/>
         </section>
