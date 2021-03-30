@@ -1,6 +1,6 @@
 import React from 'react';
 import Switch from './Switch';
-import 'header.css';
+import './header.css';
 
 const Header = (props) => {
     return (
