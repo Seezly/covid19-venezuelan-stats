@@ -18,7 +18,7 @@ Please read the [CODE_OF_CONDUCT.md](https://github.com/Seezly/covid19-venezuela
 
 ## How to Run?
 
-You can do a fork of the project and then clone it into your local machine.
+You can do a fork of the repository and then clone it into your local machine.
 
 Go into the directory you clone the project, open the terminal, and write the following:
 

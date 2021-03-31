@@ -18,7 +18,7 @@ Por favor lea el [CODE_OF_CONDUCT.md](https://github.com/Seezly/covid19-venezuel
 
 ## ¿Cómo Iniciar el Proyecto?
 
-Puedes hacerle fork al proyecto y luego clonarlo en tu máquina local.
+Puedes hacerle fork al repositorio y luego clonarlo en tu máquina local.
 
 Dirígete al directorio donde clonaste el proyecto, abre la terminal (si estás es VS Code puedes pulsar CTRL + ñ), y escribe lo siguiente:
 
