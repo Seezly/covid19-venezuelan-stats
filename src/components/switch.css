@@ -32,7 +32,7 @@ input[type="checkbox"] {
   background: hsl(204, 54%, 55%);
   border-radius: 50%;
   transition: all .5s ease;
-  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.25);
 }
 
 .check-handler:before {
