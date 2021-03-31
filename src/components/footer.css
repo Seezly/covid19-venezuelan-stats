@@ -16,6 +16,14 @@ footer {
     margin: 0 auto;
 }
 
+.copyright > * {
+    font-size: 0.75em;
+}
+
+.copyright .copyright__author {
+    font-weight: 100;
+}
+
 .copyright .copyright__author .heart {
     color: hsl(352, 68%, 55%);
 }
