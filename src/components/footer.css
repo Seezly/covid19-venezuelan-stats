@@ -14,3 +14,7 @@ footer {
     flex-direction: column;
     margin: 0 auto;
 }
+
+.copyright .copyright__author .heart {
+    color: hsl(352, 68%, 55%);
+}
