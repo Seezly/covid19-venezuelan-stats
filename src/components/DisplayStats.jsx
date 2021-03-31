@@ -50,12 +50,12 @@ const DisplayStats = (props) => {
                 title="% de la población afectada"/>
             <Stats 
                 class_name="container__display-stats"
-                attr=""
+                attr="half"
                 data={infectedPerDayAverage}
                 title="Promedio de infectados por día"/>
             <Stats 
                 class_name="container__display-stats"
-                attr=""
+                attr="half"
                 data={deathsPerDayAverage}
                 title="Promedio de muertes por día"/>
         </section>
