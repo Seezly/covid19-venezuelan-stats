@@ -47,7 +47,7 @@ const DisplayStats = (props) => {
                 class_name="container__display-stats --box"
                 attr="yellow"
                 data={populationPercentage}
-                title="% de la población afectada"/>
+                title="Población afectada"/>
             <Stats 
                 class_name="container__display-stats"
                 attr="half"
