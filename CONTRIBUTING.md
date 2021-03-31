@@ -6,7 +6,7 @@
 - Discutiendo el estado actual del código
 - Enviando un fix
 - Proponiendo nuevas características
-- Convirtiéndote en un mantenedor.
+- Convirtiéndote en un mantenedor
 
 ## Código de Conducta
 
@@ -23,7 +23,7 @@ Este proyecto usa la convención estándar de commits. Por favor, lea como puede
 ## Pull Requests
 
 1. Hazle un fork al repositorio y crea un nuevo branch.
-2. Si haz añadido código, por favor, haz los test necesarios.
+2. Si haz añadido código, por favor, haz los test necesarios antes de enviarlo.
 3. Asegurate de describir correctamente tu pull request.
 
 ## Issues
