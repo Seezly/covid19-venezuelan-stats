@@ -4,7 +4,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0.125em 0.75em hsla(204, 54%, 55%, 0.5);
+    background-color: hsl(165, 100%, 97%);
+    box-shadow: 0 0.125em 0.75em hsla(204, 54%, 55%, 0.25);
 }
 
 h1 {
