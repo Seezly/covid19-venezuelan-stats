@@ -2,19 +2,19 @@
 
 ## Not your language? Choose one!
 
-[English](https://github.com/Seezly/covid19-venezuelan-summary/blob/main/README.en-us.md) [Español](https://github.com/Seezly/covid19-venezuelan-summary/blob/main/README.md)
+[English](https://github.com/Seezly/covid19-venezuelan-stats/blob/main/README.en-us.md) [Español](https://github.com/Seezly/covid19-venezuelan-stats/blob/main/README.md)
 
 ## Contributions
 
 This is a project 100% Open Source, if you have any idea, recomendation, you see a bug or something like that, you can create an issue.
 
-If you want to fix an issue that already exists, please read [CONTRIBUTING.md](https://github.com/Seezly/covid19-venezuelan-summary/blob/main/CONTRIBUTING.en-us.md) for details.
+If you want to fix an issue that already exists, please read [CONTRIBUTING.md](https://github.com/Seezly/covid19-venezuelan-stats/blob/main/CONTRIBUTING.en-us.md) for details.
 
 ## Contributors
 
 ## Code of Conduct
 
-Please read the [CODE_OF_CONDUCT.md](https://github.com/Seezly/covid19-venezuelan-summary/blob/main/CODE_OF_CONDUCT.en-us.md) for details on our code of conduct.
+Please read the [CODE_OF_CONDUCT.md](https://github.com/Seezly/covid19-venezuelan-stats/blob/main/CODE_OF_CONDUCT.en-us.md) for details on our code of conduct.
 
 ## How to Run?
 
@@ -32,4 +32,4 @@ I'm venezuelan and programming passionate me, we are in the middle of a global p
 
 ## License
 
-By contributing to this project, you agree that your contributions will be licensed under the [LICENSE](https://github.com/Seezly/covid19-venezuelan-summary/blob/main/LICENSE) file.
+By contributing to this project, you agree that your contributions will be licensed under the [LICENSE](https://github.com/Seezly/covid19-venezuelan-stats/blob/main/LICENSE) file.

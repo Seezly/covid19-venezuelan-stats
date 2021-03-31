@@ -2,19 +2,19 @@
 
 ## Not Your Language? Choose One!
 
-[English](https://github.com/Seezly/covid19-venezuelan-summary/blob/main/README.en-us.md) [Español](https://github.com/Seezly/covid19-venezuelan-summary/blob/main/README.md)
+[English](https://github.com/Seezly/covid19-venezuelan-stats/blob/main/README.en-us.md) [Español](https://github.com/Seezly/covid19-venezuelan-stats/blob/main/README.md)
 
 ## Contribuciones
 
 Este es un proyecto 100% Open Source, si tienes alguna idea, recomendación, te topaste con algún bug o algo parecido, puedes crear un issue.
 
-Si quieres resolver un issue ya existente, por favor lee [CONTRIBUTING.md](https://github.com/Seezly/covid19-venezuelan-summary/blob/main/CONTRIBUTING.md) para más detalles.
+Si quieres resolver un issue ya existente, por favor lee [CONTRIBUTING.md](https://github.com/Seezly/covid19-venezuelan-stats/blob/main/CONTRIBUTING.md) para más detalles.
 
 ## Contribuidores
 
 ## Código de Conducta
 
-Por favor lea el [CODE_OF_CONDUCT.md](https://github.com/Seezly/covid19-venezuelan-summary/blob/main/CODE_OF_CONDUCT.md) para más detalles en nuestro código de conducta.
+Por favor lea el [CODE_OF_CONDUCT.md](https://github.com/Seezly/covid19-venezuelan-stats/blob/main/CODE_OF_CONDUCT.md) para más detalles en nuestro código de conducta.
 
 ## ¿Cómo Iniciar el Proyecto?
 
@@ -32,4 +32,4 @@ Soy venezolano y me apasiona la programación, estamos en medio de una pandemia 
 
 ## Licencia
 
-Al contribuir con este proyecto, estás aceptando que tus contribuciones estarán licenciadas bajo la [Licencia](https://github.com/Seezly/covid19-venezuelan-summary/blob/main/LICENSE).
+Al contribuir con este proyecto, estás aceptando que tus contribuciones estarán licenciadas bajo la [Licencia](https://github.com/Seezly/covid19-venezuelan-stats/blob/main/LICENSE).
