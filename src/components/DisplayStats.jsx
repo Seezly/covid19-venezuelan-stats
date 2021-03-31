@@ -29,27 +29,33 @@ const DisplayStats = (props) => {
         <section
             className="container display">
             <Stats 
-                class-name="container__display-stats"
+                class_name="container__display-stats"
+                attr=""
                 data={confirmed}
                 title="Casos confirmados"/>
             <Stats 
-                class-name="container__display-stats --box"
+                class_name="container__display-stats --box"
+                attr="red"
                 data={deaths}
                 title="Muertes"/>
             <Stats 
-                class-name="container__display-stats --box"
+                class_name="container__display-stats --box"
+                attr="green"
                 data={recovered}
                 title="Recuperados"/>
             <Stats 
-                class-name="container__display-stats --box"
+                class_name="container__display-stats --box"
+                attr="yellow"
                 data={populationPercentage}
                 title="% de la población afectada"/>
             <Stats 
-                class-name="container__display-stats"
+                class_name="container__display-stats"
+                attr=""
                 data={infectedPerDayAverage}
                 title="Promedio de infectados por día"/>
             <Stats 
-                class-name="container__display-stats"
+                class_name="container__display-stats"
+                attr=""
                 data={deathsPerDayAverage}
                 title="Promedio de muertes por día"/>
         </section>
