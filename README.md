@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Aplicación Web del COVID-19 en Venezuela
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Not Your Language? Choose One!
 
-## Available Scripts
+[English](https://github.com/Seezly/covid19-venezuelan-summary/blob/main/README.en-us.md) [Español](https://github.com/Seezly/covid19-venezuelan-summary/blob/main/README.md)
 
-In the project directory, you can run:
+## Contribuciones
 
-### `npm start`
+Este es un proyecto 100% Open Source, si tienes alguna idea, recomendación, te topaste con algún bug o algo parecido, puedes crear un issue.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Si quieres resolver un issue ya existente, por favor lee [CONTRIBUTING.md](https://github.com/Seezly/covid19-venezuelan-summary/blob/main/CONTRIBUTING.md) para más detalles.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Contribuidores
 
-### `npm test`
+## Código de Conducta
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Por favor lea el [CODE_OF_CONDUCT.md](https://github.com/Seezly/covid19-venezuelan-summary/blob/main/CODE_OF_CONDUCT.md) para más detalles en nuestro código de conducta.
 
-### `npm run build`
+## ¿Cómo Iniciar el Proyecto?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Puedes hacerle fork al proyecto y luego clonarlo en tu máquina local.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Dirígete al directorio donde clonaste el proyecto, abre la terminal (si estás es VS Code puedes pulsar CTRL + ñ), y escribe lo siguiente:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`npm start`
 
-### `npm run eject`
+¡Y listo!, se abrirá automáticamente una nueva pestaña en tu navegador con el proyecto.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## ¿Por Qué?
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Soy venezolano y me apasiona la programación, estamos en medio de una pandemia global, y además, me gusta ver las estadísticas de la situación del COVID-19 en mi país, supuse que a alguien más también le gustaría verlas con una UI amigable; así que pensé: "¿Qué tal si hago una aplicación web de esto?", y sí, eso hice (y sigo haciendo actualmente). Además, quería practicar mis habilidades con React y el diseño UX/UI, ¡todos ganamos!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Licencia
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Al contribuir con este proyecto, estás aceptando que tus contribuciones estarán licenciadas bajo la [Licencia](https://github.com/Seezly/covid19-venezuelan-summary/blob/main/LICENSE).
