@@ -1,0 +1,29 @@
+.container__display-stats {
+    width: 100%;
+    height: 30%;
+}
+
+.--half {
+    width: 50%;
+}
+
+.--box {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0.5em 0.5em;
+}
+
+.--red {
+    background-color: hsl(352, 68%, 55%);
+}
+
+.--yellow {
+    background-color: hsl(37, 100%, 68%);
+}
+
+.--green {
+    background-color: hsl(148, 64%, 58%);
+}
