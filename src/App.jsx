@@ -9,6 +9,7 @@ const App = () => {
     const [stats, setStats] = useState();
     const [timeline, setTimeline] = useState();
     const [loader, setLoader] = useState(true);
+    const [darkMode, setDarkMode] = useState(false);
     
     useEffect(() => {
 
@@ -26,18 +27,35 @@ const App = () => {
 
     }, []);
 
+    const handleChange = (e) => {
+        if (e.target.checked) {
+            localStorage.setItem('Dark Mode', 'Yes');
+        } else {
+            localStorage.setItem('Dark Mode', 'No');
+        }
+
+        if (localStorage.getItem('Dark Mode') === 'Yes') {
+            setDarkMode(true);
+        }
+    };
+
     return (
         <>
             {
                 loader ?
-                <Loader />
+                <Loader 
+                    handleChange={handleChange}
+                    darkMode={darkMode}/>
                 :
                 <>
-                    <Header />
+                    <Header 
+                        darkMode={darkMode}/>
                     <DisplayStats
                         stats={stats}
-                        timeline={timeline}/>
-                    <Footer />
+                        timeline={timeline}
+                        darkMode={darkMode}/>
+                    <Footer 
+                        darkMode={darkMode}/>
                 </>
             }
         </>
