@@ -14,3 +14,24 @@ body {
 #root {
     min-height: 100vh;
 }
+
+a {
+    font-weight: 900;
+    text-decoration: underline 0.125em solid #0A090C;
+}
+
+a:hover {
+    color: hsl(204, 54%, 55%);
+    text-decoration: underline 0.125em dashed hsl(204, 54%, 55%);
+}
+
+a:active {
+    color: #0A090C;
+    font-style: italic;
+    text-decoration: underline 0.125em solid #0A090C;
+}
+
+a:visited {
+    color: hsl(165, 100%, 97%);
+    text-decoration: line-through 0.125em solid #0A090C;
+}
