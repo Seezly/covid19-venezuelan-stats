@@ -2,12 +2,13 @@ import React, { useState, useEffect } from 'react';
 import DisplayStats from './components/DisplayStats';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Loader from "./components/Loader";
 
 const App = () => {
 
     const [stats, setStats] = useState();
     const [timeline, setTimeline] = useState();
-    const [render, setRender] = useState(false);
+    const [loader, setLoader] = useState(true);
     
     useEffect(() => {
 
@@ -20,21 +21,25 @@ const App = () => {
 
             setStats(stats);
             setTimeline(timeline);
-            setRender(true);
+            setLoader(false);
         });
 
     }, []);
 
     return (
         <>
-            <Header />
             {
-                render &&
-                <DisplayStats
-                stats={stats}
-                timeline={timeline}/>
+                loader ?
+                <Loader />
+                :
+                <>
+                    <Header />
+                    <DisplayStats
+                        stats={stats}
+                        timeline={timeline}/>
+                    <Footer />
+                </>
             }
-            <Footer />
         </>
     )
 };
