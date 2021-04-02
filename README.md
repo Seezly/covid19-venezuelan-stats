@@ -4,6 +4,11 @@
 
 [English](https://github.com/Seezly/covid19-venezuelan-stats/blob/main/README.en-us.md) [Español](https://github.com/Seezly/covid19-venezuelan-stats/blob/main/README.md)
 
+## Nuevas características a añadir
+
+- [ ] Mapa lineal de cantidad de infectados, muertos y recuperados con respecto al día 0 hasta la actualidad
+- [ ] Mapa lineal de cantidad de infectados, muertos y recuperados con respecto a otros países latinoamericanos
+
 ## Contribuciones
 
 Este es un proyecto 100% Open Source, si tienes alguna idea, recomendación, te topaste con algún bug o algo parecido, puedes crear un issue.

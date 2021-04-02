@@ -4,6 +4,11 @@
 
 [English](https://github.com/Seezly/covid19-venezuelan-stats/blob/main/README.en-us.md) [Español](https://github.com/Seezly/covid19-venezuelan-stats/blob/main/README.md)
 
+## New features list
+
+- [ ] Infected, deaths and recovered linear map within day 0 until now
+- [ ] Infected, deaths and recovered linear map within others latin american countries
+
 ## Contributions
 
 This is a project 100% Open Source, if you have any idea, recomendation, you see a bug or something like that, you can create an issue.
