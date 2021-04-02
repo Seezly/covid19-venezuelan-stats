@@ -4,7 +4,7 @@ import './display_stats.css';
 
 const DisplayStats = (props) => {
 
-    let { stats, timeline } = props;
+    let { darkMode, stats, timeline } = props;
 
     const getAverage = (data, subject, sub=false) => {
         if (sub) {
@@ -27,7 +27,8 @@ const DisplayStats = (props) => {
 
     return (
         <section
-            className="container display">
+            className="container display"
+            style={darkMode ? {color: 'hsl(165, 100%, 97%)', backgroundColor: 'black', transition: 'all .5s'} : {}}>
             <Stats 
                 class_name="container__display-stats"
                 attr=""
@@ -37,17 +38,20 @@ const DisplayStats = (props) => {
                 class_name="container__display-stats --box"
                 attr="red"
                 data={deaths}
-                title="Muertes"/>
+                title="Muertes"
+                styles={darkMode}/>
             <Stats 
                 class_name="container__display-stats --box"
                 attr="green"
                 data={recovered}
-                title="Recuperados"/>
+                title="Recuperados"
+                styles={darkMode}/>
             <Stats 
                 class_name="container__display-stats --box"
                 attr="yellow"
                 data={populationPercentage}
-                title="Población afectada"/>
+                title="Población afectada"
+                styles={darkMode}/>
             <Stats 
                 class_name="container__display-stats"
                 attr="half"

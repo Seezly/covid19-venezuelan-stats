@@ -3,9 +3,13 @@ import SVG from './loader.svg';
 import './loader.css';
 
 const Loader = (props) => {
+
+    const { darkMode } = props;
+
     return (
         <div 
-            className="loader">
+            className="loader"
+            style={darkMode ? {color: 'hsl(165, 100%, 97%)', backgroundColor: '#0A090C', transition: 'all .5s'} : {}}>
                 <div 
                     className="loader__svg">
                     <img 

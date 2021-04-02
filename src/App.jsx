@@ -9,7 +9,7 @@ const App = () => {
     const [stats, setStats] = useState();
     const [timeline, setTimeline] = useState();
     const [loader, setLoader] = useState(true);
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(localStorage.getItem('Dark Mode') === 'Yes' ? true : false);
     
     useEffect(() => {
 
@@ -28,14 +28,20 @@ const App = () => {
     }, []);
 
     const handleChange = (e) => {
-        if (e.target.checked) {
+        if (e.target.checked === true) {
             localStorage.setItem('Dark Mode', 'Yes');
+            console.log('si')
         } else {
             localStorage.setItem('Dark Mode', 'No');
+            console.log('no')
         }
 
         if (localStorage.getItem('Dark Mode') === 'Yes') {
             setDarkMode(true);
+            console.log('negro')
+        } else {
+            setDarkMode(false);
+            console.log('blanco')
         }
     };
 
@@ -44,11 +50,11 @@ const App = () => {
             {
                 loader ?
                 <Loader 
-                    handleChange={handleChange}
                     darkMode={darkMode}/>
                 :
                 <>
                     <Header 
+                        handleChange={handleChange}
                         darkMode={darkMode}/>
                     <DisplayStats
                         stats={stats}

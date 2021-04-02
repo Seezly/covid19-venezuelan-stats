@@ -16,13 +16,14 @@ body {
 }
 
 a {
+    color: hsl(148, 64%, 58%);
     font-weight: 900;
-    text-decoration: underline #0A090C solid 0.125em;
+    text-decoration: underline hsl(148, 64%, 58%) solid 0.125em;
     transition: all .25s;
 }
 
 a:visited {
-    color: #0A090C;
+    color: hsl(148, 64%, 58%);
     transition: all .25s;
 }
 

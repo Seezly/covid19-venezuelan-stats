@@ -2,8 +2,11 @@ import React from 'react';
 import './footer.css';
 
 const Footer = (props) => {
+
+    const { darkMode } = props;
+
     return (
-        <footer>
+        <footer style={darkMode ? {color: 'hsl(165, 100%, 97%)', backgroundColor: '#0A090C', transition: 'all .5s',} : {}}>
             <div
                 className="copyright">
                 <small
