@@ -6,8 +6,8 @@
 
 ## New features list
 
-- [ ] Infected, deaths and recovered linear map within day 0 until now
-- [ ] Infected, deaths and recovered linear map within others latin american countries
+- [ ] Infected, deaths and recovered linear chart within day 0 until now
+- [ ] Infected, deaths and recovered linear chart within others latin american countries
 
 ## Contributions
 
