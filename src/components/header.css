@@ -1,12 +1,13 @@
 header {
     width: 100%;
-    height: 10vh;
+    min-height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: hsl(165, 100%, 97%);
     box-shadow: 0 0.125em 0.75em hsla(204, 54%, 55%, 0.25);
     position: relative;
+    padding: 1em 1.5em;
     transition: all .5s;
 }
 

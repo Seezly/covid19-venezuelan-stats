@@ -2,9 +2,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+    min-height: 10vh;
     text-align: center;
-    padding: 0 2.5em;
+    padding: 1em 1.5em;
     background-color: hsl(165, 100%, 97%);
     transition: all .5s;
 }
