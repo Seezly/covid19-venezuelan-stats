@@ -27,7 +27,7 @@ const DisplayStats = (props) => {
 
     return (
         <section
-            className="container display"
+            className="container display-stats"
             style={darkMode ? {color: 'hsl(165, 100%, 97%)', backgroundColor: 'black', transition: 'all .5s'} : {}}>
             <Stats 
                 class_name="container__display-stats"
