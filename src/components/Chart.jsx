@@ -18,10 +18,10 @@ const Chart = (props) => {
 				height={300}
 				data={data}
 				margin={{
-					top: 30,
-					right: 30,
-					left: 30,
-					bottom: 30,
+					top: 0,
+					right: 20,
+					left: 20,
+					bottom: 0,
 				}}>
 				<CartesianGrid 
 					strokeDasharray="4 4"/>

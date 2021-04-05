@@ -39,7 +39,7 @@ const DisplayCharts = (props) => {
             <Chart 
                 data={data}
                 colors={['#4f98ca', "#50d890", '#DA3E52']}
-                height='50%'
+                height='100%'
                 dataKey={['Day', 'Infected', 'Recovered', 'Deaths']}
                 title='Mapa lineal de infectados, recuperados y muertos'
                 filteredDataKey={['Infected', 'Recovered', 'Deaths']}/>

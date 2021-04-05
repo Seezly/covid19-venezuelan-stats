@@ -6,3 +6,7 @@
     align-items: center;
     flex-direction: column;
 }
+
+.container__display-charts h2 {
+    margin: 1em 0;
+}
