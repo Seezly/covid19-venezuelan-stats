@@ -6,8 +6,10 @@
 
 ## Nuevas características a añadir
 
-- [ ] Mapa lineal de cantidad de infectados, muertos y recuperados con respecto al día 0 hasta la actualidad
+- [X] Mapa lineal de cantidad de infectados, muertos y recuperados con respecto al día 0 hasta la actualidad
 - [ ] Mapa lineal de cantidad de infectados, muertos y recuperados con respecto a otros países latinoamericanos
+
+***NOTA: Si quieres ayudar a contribuir con la creación de los mapas lineales, ten en cuenta que el proyecto usa [Recharts](https://recharts.org/) para la creación de estos***
 
 ## Contribuciones
 

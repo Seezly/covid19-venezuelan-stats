@@ -6,8 +6,10 @@
 
 ## New features list
 
-- [ ] Infected, deaths and recovered linear chart within day 0 until now
-- [ ] Infected, deaths and recovered linear chart within others latin american countries
+- [X] Infected, deaths and recovered linear chart within day 0 until now
+- [ ] Infected, deaths and recovered linear chart within others latin american 
+
+***NOTE: If you want to help contributing with the charts features, you must use the same dependency creating the charts as the project, the project use [Recharts](https://recharts.org/)***
 
 ## Contributions
 
