@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import DisplayCharts from './components/DisplayCharts';
 import DisplayStats from './components/DisplayStats';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -58,6 +59,9 @@ const App = () => {
                         darkMode={darkMode}/>
                     <DisplayStats
                         stats={stats}
+                        timeline={timeline}
+                        darkMode={darkMode}/>
+                    <DisplayCharts
                         timeline={timeline}
                         darkMode={darkMode}/>
                     <Footer 
