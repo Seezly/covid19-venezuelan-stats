@@ -18,12 +18,12 @@ const DisplayStats = (props) => {
         return average
     };
 
-    const confirmed = stats['Confirmed']['Count'].toLocaleString('de-DE');
-    const recovered = stats['Recovered']['Count'].toLocaleString('de-DE');
-    const deaths = stats['Deaths']['Count'].toLocaleString('de-DE');
-    const populationPercentage = stats['Confirmed'].toLocaleString('de-DE');
-    const infectedPerDayAverage = getAverage(timeline, "Confirmed", "New").toLocaleString('de-DE');
-    const deathsPerDayAverage = getAverage(timeline, "Deaths", "New").toLocaleString('de-DE');
+    const confirmed = stats['Confirmed']['Count'];
+    const recovered = stats['Recovered']['Count'];
+    const deaths = stats['Deaths']['Count'];
+    const populationPercentage = (confirmed / 28435940) * 100;
+    const infectedPerDayAverage = getAverage(timeline, "Confirmed", "New");
+    const deathsPerDayAverage = getAverage(timeline, "Deaths", "New");
 
     return (
         <section
@@ -32,35 +32,35 @@ const DisplayStats = (props) => {
             <Stats 
                 class_name="container__display-stats"
                 attr=""
-                data={confirmed}
+                data={confirmed.toLocaleString('de-DE')}
                 title="Casos confirmados"/>
             <Stats 
                 class_name="container__display-stats --box"
                 attr="red"
-                data={deaths}
+                data={deaths.toLocaleString('de-DE')}
                 title="Muertes"
                 styles={darkMode}/>
             <Stats 
                 class_name="container__display-stats --box"
                 attr="green"
-                data={recovered}
+                data={recovered.toLocaleString('de-DE')}
                 title="Recuperados"
                 styles={darkMode}/>
             <Stats 
                 class_name="container__display-stats --box"
                 attr="yellow"
-                data={populationPercentage}
+                data={`${populationPercentage.toLocaleString('de-DE')}%`}
                 title="Población afectada"
                 styles={darkMode}/>
             <Stats 
                 class_name="container__display-stats"
                 attr="half"
-                data={infectedPerDayAverage}
+                data={infectedPerDayAverage.toLocaleString('de-DE')}
                 title="Promedio de infectados por día"/>
             <Stats 
                 class_name="container__display-stats"
                 attr="half"
-                data={deathsPerDayAverage}
+                data={deathsPerDayAverage.toLocaleString('de-DE')}
                 title="Promedio de muertes por día"/>
         </section>
     )
