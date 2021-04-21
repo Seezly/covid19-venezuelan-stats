@@ -23,10 +23,10 @@ const DisplayCharts = (props) => {
         deathsNum += deaths[i];
 
         let obj = {
-            'Day': `Day ${i}`,
-            'Infected': infectedNum,
-            'Recovered': recoveredNum,
-            'Deaths': deathsNum
+            'Día': `Día ${i}`,
+            'Infectados': infectedNum,
+            'Recuperados': recoveredNum,
+            'Muertes': deathsNum
         };
         
         data.push(obj);
@@ -40,9 +40,9 @@ const DisplayCharts = (props) => {
                 data={data}
                 colors={['#4f98ca', "#50d890", '#DA3E52']}
                 height='100%'
-                dataKey={['Day', 'Infected', 'Recovered', 'Deaths']}
+                dataKey={['Día', 'Infectados', 'Recuperados', 'Muertes']}
                 title='Mapa lineal de infectados, recuperados y muertos'
-                filteredDataKey={['Infected', 'Recovered', 'Deaths']}/>
+                filteredDataKey={['Infectados', 'Recuperados', 'Muertes']}/>
         </section>
     )
 };
