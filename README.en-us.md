@@ -1,6 +1,6 @@
 # COVID-19 in Venezuela Web App
 
-## Not your language? Choose one!
+## Not Your Language? Choose One!
 
 [English](https://github.com/Seezly/covid19-venezuelan-stats/blob/main/README.en-us.md) [Español](https://github.com/Seezly/covid19-venezuelan-stats/blob/main/README.md)
 
@@ -8,6 +8,7 @@
 
 - [X] Infected, deaths and recovered linear chart within day 0 until now
 - [ ] Infected, deaths and recovered linear chart within others latin american 
+- [ ] Make and implement icons for the cards
 
 ***NOTE: If you want to help contributing with the charts features, you must use the same dependency creating the charts as the project, the project use [Recharts](https://recharts.org/)***
 
